@@ -59,7 +59,7 @@ edgetag('tag', 'PageView')
 
 ### Purchase Event
 
-Add the code below to the page template where `fbq('track', 'Purchase');` is used. The `value` and `currency` should be dynamically populated using the dataLayer.
+Add the code below to the site template. The `value` and `currency` should be dynamically populated using the dataLayer.
 
 ```javascript
 edgetag('tag', 'Purchase', { value: 10.0, currency: 'USD' })
@@ -135,7 +135,7 @@ edgetag('tag', 'PageView')
 
 ### Purchase Event
 
-Add the code below to the page template where `fbq('track', 'Purchase');` is used. The `value` and `currency` should be dynamically populated using the dataLayer.
+Add the code below to the site template. The `value` and `currency` should be dynamically populated using the dataLayer.
 
 ```javascript
 edgetag('tag', 'Purchase', { value: 10.0, currency: 'USD' })
